@@ -1,0 +1,27 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.my__name {
+  text-align: center;
+  width: 20rem;
+  letter-spacing: 1px;
+}
+
+.nav {
+  background-color: gray;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav__ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}

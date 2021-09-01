@@ -7,26 +7,26 @@ import Footer from "./components/footer/Footer";
 
 import "./App.css";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basname={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar />
 
         <div className="content">
           <Switch>
-            <Route exact path={process.env.PUBLIC_URL + "/"}>
+            <Route exact path="/">
               <Home />
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/about"}>
+            <Route path="/about">
               <About />
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/projects"}>
+            <Route path="/projects">
               <Projects />
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/demos"}>
+            <Route path="/demos">
               <Demos />
             </Route>
           </Switch>

@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { ExternalLink } from "react-external-link";
 
 import "./navbar.css";
 
-function Navbar(props) {
+function Navbar() {
   function hoverHandler(e) {
     e.preventDefault();
     const link = e.target;
@@ -23,35 +23,41 @@ function Navbar(props) {
 
   return (
     <div
-      onMouseOver={hoverHandler.bind(0.5)}
+      onMouseOver={hoverHandler.bind(0.25)}
       onMouseOut={hoverHandler.bind(1)}
       className="nav"
     >
-      <h3 className="my__name">
-        <Link to="/">Taylor Cook</Link>
+      <h3 className="my__name hidden_on_small">
+        <NavLink exact to="/" activeClassName="">
+          Taylor Cook
+        </NavLink>
       </h3>
       <ul className="nav__ul">
-        <li>
-          <Link to="/" className="nav__item">
+        <li className="nav__li">
+          <NavLink exact to="/" className="nav__item" activeClassName="active">
             Home
-          </Link>
+          </NavLink>
         </li>
-        <li>
+        {/* <li className="nav__li">
           <Link to="/demos" className="nav__item">
             Live Demos
           </Link>
-        </li>
-        <li>
-          <Link to="/about" className="nav__item">
+        </li> */}
+        <li className="nav__li">
+          <NavLink to="/about" className="nav__item" activeClassName="active">
             About
-          </Link>
+          </NavLink>
         </li>
-        <li>
-          <Link to="/projects" className="nav__item">
+        <li className="nav__li">
+          <NavLink
+            to="/projects"
+            className="nav__item"
+            activeClassName="active"
+          >
             Projects
-          </Link>
+          </NavLink>
         </li>
-        <li>
+        <li className="nav__li">
           <ExternalLink
             href="https://drive.google.com/file/d/1V7yjUwJD1HTmwOoyGyxmAkTcXq8g5pFx/view?usp=sharing"
             className="nav__item"

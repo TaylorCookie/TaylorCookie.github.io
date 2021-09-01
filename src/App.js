@@ -17,16 +17,16 @@ function App() {
 
         <div className="content">
           <Switch>
-            <Route exact path="/">
+            <Route exact path={process.env.PUBLIC_URL + "/"}>
               <Home />
             </Route>
-            <Route path="/about">
+            <Route path={process.env.PUBLIC_URL + "/about"}>
               <About />
             </Route>
-            <Route path="/projects">
+            <Route path={process.env.PUBLIC_URL + "/projects"}>
               <Projects />
             </Route>
-            <Route path="/demos">
+            <Route path={process.env.PUBLIC_URL + "/demos"}>
               <Demos />
             </Route>
           </Switch>

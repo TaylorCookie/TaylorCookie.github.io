@@ -3,6 +3,19 @@ a {
   text-decoration: none;
 }
 
+.nav_background_bar {
+  background-color: rgb(83, 80, 80);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  display: block;
+  height: 3rem;
+  opacity: 0.5;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+}
+
 .my__name {
   text-align: center;
   width: 20rem;
@@ -10,13 +23,15 @@ a {
 }
 
 .nav {
-  /* background-color: grey;
-  opacity: 0.9; */
-
   height: 3rem;
   display: flex;
   align-items: center;
   color: white;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
 }
 
 .nav__ul {

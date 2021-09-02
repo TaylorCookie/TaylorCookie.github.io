@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../navbar/Navbar";
 import background from "../../images/background.jpg";
+import Navbar from "../ui/navbar/Navbar";
 
 import "./home.css";
 
@@ -11,10 +11,8 @@ function Home() {
         className="background_image"
         style={{ backgroundImage: `url(${background})` }}
       ></div>
-      <div className="background_bar"></div>
+      <Navbar />
       <div className="home_content">
-        <Navbar />
-
         <section className="">Testing Section</section>
       </div>
     </div>

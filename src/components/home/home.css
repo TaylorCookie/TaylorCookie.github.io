@@ -1,21 +1,14 @@
 .home_content {
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-}
+  /* create spaceing for the navbar */
+  padding-top: 3rem;
+  height: calc(100vh - 3rem);
 
-.background_bar {
-  background-color: rgb(83, 80, 80);
   position: fixed;
   left: 0;
   right: 0;
-  z-index: 2;
-  display: block;
-  height: 3rem;
-  opacity: 0.5;
-  -webkit-filter: blur(1px);
-  filter: blur(1px);
+  z-index: 9998;
+
+  color: white;
 }
 
 .background_image {

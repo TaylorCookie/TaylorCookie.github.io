@@ -3,7 +3,7 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
 import Demos from "./components/demos/Demos";
-import Footer from "./components/footer/Footer";
+// import Footer from "./components/footer/Footer";
 
 import "./App.css";
 
@@ -13,8 +13,6 @@ function App() {
   return (
     <Router basname={process.env.PUBLIC_URL}>
       <div className="App">
-        {/* <Navbar /> */}
-
         <div className="content">
           <Switch>
             <Route exact path="/">
@@ -32,7 +30,7 @@ function App() {
           </Switch>
         </div>
 
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );

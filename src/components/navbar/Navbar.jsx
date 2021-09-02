@@ -38,11 +38,6 @@ function Navbar() {
             Home
           </NavLink>
         </li>
-        {/* <li className="nav__li">
-          <Link to="/demos" className="nav__item">
-            Live Demos
-          </Link>
-        </li> */}
         <li className="nav__li">
           <NavLink to="/about" className="nav__item" activeClassName="active">
             About

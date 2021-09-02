@@ -10,10 +10,13 @@ a {
 }
 
 .nav {
-  background-color: gray;
+  /* background-color: grey;
+  opacity: 0.9; */
+
   height: 3rem;
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .nav__ul {
@@ -32,7 +35,7 @@ a {
 }
 
 .active {
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid rgb(127, 177, 194);
 }
 
 .hidden_on_small {

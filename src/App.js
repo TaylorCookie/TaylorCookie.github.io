@@ -1,4 +1,4 @@
-import Navbar from "./components/navbar/Navbar";
+// import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
@@ -13,7 +13,7 @@ function App() {
   return (
     <Router basname={process.env.PUBLIC_URL}>
       <div className="App">
-        <Navbar />
+        {/* <Navbar /> */}
 
         <div className="content">
           <Switch>

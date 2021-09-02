@@ -1,3 +1,7 @@
+:root {
+  --lightblue: rgb(127, 177, 194);
+}
+
 * {
   margin: 0;
 }
@@ -16,5 +20,14 @@ select {
   font: inherit;
 }
 
-/* .navbar_component {
-} */
+/* All main components use this for auto spacing for navbar */
+.main_content {
+  /* create spaceing for the navbar */
+  padding-top: 3rem;
+  height: calc(100vh - 3rem);
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9998;
+}

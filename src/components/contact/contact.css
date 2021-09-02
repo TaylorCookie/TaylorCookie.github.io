@@ -1,0 +1,38 @@
+.hidden {
+  display: none;
+}
+
+.contact_form {
+  width: 90%;
+  height: 60%;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_form_input {
+  margin: 2px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.contact_form_button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: var(--lightblue);
+}
+
+@media only screen and (min-width: 1000px) {
+  .contact_form_input {
+    width: 40%;
+  }
+}

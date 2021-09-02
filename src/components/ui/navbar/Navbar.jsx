@@ -46,8 +46,12 @@ function Navbar() {
             </NavLink>
           </li>
           <li className="nav__li">
-            <NavLink to="/about" className="nav__item" activeClassName="active">
-              About
+            <NavLink
+              to="/contact"
+              className="nav__item"
+              activeClassName="active"
+            >
+              Contact
             </NavLink>
           </li>
           <li className="nav__li">

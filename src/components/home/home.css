@@ -1,16 +1,3 @@
-.home_content {
-  /* create spaceing for the navbar */
-  padding-top: 3rem;
-  height: calc(100vh - 3rem);
-
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 9998;
-
-  color: white;
-}
-
 .background_image {
   position: fixed;
   left: 0;
@@ -25,4 +12,57 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.centered_container {
+  width: 90%;
+  height: 60%;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+
+  color: white;
+}
+
+.centered_background_container {
+  width: 90%;
+  height: 60%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0.5;
+}
+
+.intro {
+  margin: 1rem;
+}
+
+.contact_me_span {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 1000px) {
+  .centered_container {
+    width: 60%;
+    height: 45%;
+  }
+
+  .centered_background_container {
+    width: 60%;
+    height: 45%;
+  }
 }

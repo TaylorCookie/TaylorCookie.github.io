@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import { ExternalLink } from "react-external-link";
+import linkedinLogo from "../../images/linkedin_logo.jpg";
 
 import "./contact.css";
 
@@ -48,7 +50,7 @@ const Contact = () => {
 
   return (
     <div className="contact_form">
-      <h1>Get in touch</h1>
+      <h1 className="get_in_touch">Get in touch</h1>
       <input
         className="contact_form_input"
         type="text"
@@ -64,7 +66,7 @@ const Contact = () => {
         onChange={(e) => setEmail(e.target.value)}
       />
       <textarea
-        className="contact_form_input"
+        className="contact_form_textarea"
         placeholder="Your message"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
@@ -73,7 +75,15 @@ const Contact = () => {
         Send Message
       </button>
 
-      <p className="contact_info">Phone: (309) 434-3185</p>
+      {/* <div className="contact_info">
+        <ExternalLink href="https://www.linkedin.com/in/taylor-cook-90b319212/">
+          <img src={linkedinLogo} className="linkedin_logo" alt="LinkedIn" />
+        </ExternalLink>
+
+        <p className="">Phone: (309) 434-3185</p>
+        <p className="">Email: 12cookt@gmail.com</p>
+      </div> */}
+
       <span className={emailSent ? null : "hidden"}>
         Thank you for your message, I will be in touch in no time!
       </span>

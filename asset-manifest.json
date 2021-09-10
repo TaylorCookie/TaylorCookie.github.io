@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb8383f9.chunk.css",
-    "main.js": "/static/js/main.c1728f19.chunk.js",
-    "main.js.map": "/static/js/main.c1728f19.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.552e9505.js",
-    "runtime-main.js.map": "/static/js/runtime-main.552e9505.js.map",
-    "static/js/2.b35d553f.chunk.js": "/static/js/2.b35d553f.chunk.js",
-    "static/js/2.b35d553f.chunk.js.map": "/static/js/2.b35d553f.chunk.js.map",
-    "static/js/3.609726fd.chunk.js": "/static/js/3.609726fd.chunk.js",
-    "static/js/3.609726fd.chunk.js.map": "/static/js/3.609726fd.chunk.js.map",
+    "main.css": "/static/css/main.1c2b7c60.chunk.css",
+    "main.js": "/static/js/main.ea990e9a.chunk.js",
+    "main.js.map": "/static/js/main.ea990e9a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83d7a37a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83d7a37a.js.map",
+    "static/js/2.348dff16.chunk.js": "/static/js/2.348dff16.chunk.js",
+    "static/js/2.348dff16.chunk.js.map": "/static/js/2.348dff16.chunk.js.map",
+    "static/js/3.eb02d1d0.chunk.js": "/static/js/3.eb02d1d0.chunk.js",
+    "static/js/3.eb02d1d0.chunk.js.map": "/static/js/3.eb02d1d0.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.eb8383f9.chunk.css.map": "/static/css/main.eb8383f9.chunk.css.map",
-    "static/js/2.b35d553f.chunk.js.LICENSE.txt": "/static/js/2.b35d553f.chunk.js.LICENSE.txt",
-    "static/media/background.1c4c983e.jpg": "/static/media/background.1c4c983e.jpg",
-    "static/media/headshot.847786b5.jpeg": "/static/media/headshot.847786b5.jpeg"
+    "static/css/main.1c2b7c60.chunk.css.map": "/static/css/main.1c2b7c60.chunk.css.map",
+    "static/js/2.348dff16.chunk.js.LICENSE.txt": "/static/js/2.348dff16.chunk.js.LICENSE.txt",
+    "static/media/foggyBackground.53f00b55.jpg": "/static/media/foggyBackground.53f00b55.jpg",
+    "static/media/hikingProject.b16f7b3e.png": "/static/media/hikingProject.b16f7b3e.png",
+    "static/media/mountainBackground.637d87fd.jpg": "/static/media/mountainBackground.637d87fd.jpg",
+    "static/media/portfolioProject.701e1b9e.png": "/static/media/portfolioProject.701e1b9e.png",
+    "static/media/treesBackground.ca3b0980.jpg": "/static/media/treesBackground.ca3b0980.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.552e9505.js",
-    "static/js/2.b35d553f.chunk.js",
-    "static/css/main.eb8383f9.chunk.css",
-    "static/js/main.c1728f19.chunk.js"
+    "static/js/runtime-main.83d7a37a.js",
+    "static/js/2.348dff16.chunk.js",
+    "static/css/main.1c2b7c60.chunk.css",
+    "static/js/main.ea990e9a.chunk.js"
   ]
 }

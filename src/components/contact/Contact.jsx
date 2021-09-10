@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import { ExternalLink } from "react-external-link";
-import linkedinLogo from "../../images/linkedin_logo.jpg";
+import Background from "../ui/background/Background";
+import background from "../../images/mountainBackground.jpg";
 
 import "./contact.css";
 
@@ -49,33 +49,36 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact_form">
-      <h1 className="get_in_touch">Get in touch</h1>
-      <input
-        className="contact_form_input"
-        type="text"
-        placeholder="Your Name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
-      <input
-        className="contact_form_input"
-        type="email"
-        placeholder="Your email address"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-      <textarea
-        className="contact_form_textarea"
-        placeholder="Your message"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-      ></textarea>
-      <button className="contact_form_button" onClick={submit}>
-        Send Message
-      </button>
+    <div>
+      <Background background={background} />
+      <div className="background_container"></div>
+      <div className="contact_form main_content">
+        <h1 className="get_in_touch">Get in touch</h1>
+        <input
+          className="contact_form_input"
+          type="text"
+          placeholder="Your Name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        <input
+          className="contact_form_input"
+          type="email"
+          placeholder="Your email address"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <textarea
+          className="contact_form_textarea"
+          placeholder="Your message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+        ></textarea>
+        <button className="contact_form_button" onClick={submit}>
+          Send Message
+        </button>
 
-      {/* <div className="contact_info">
+        {/* <div className="contact_info">
         <ExternalLink href="https://www.linkedin.com/in/taylor-cook-90b319212/">
           <img src={linkedinLogo} className="linkedin_logo" alt="LinkedIn" />
         </ExternalLink>
@@ -84,9 +87,10 @@ const Contact = () => {
         <p className="">Email: 12cookt@gmail.com</p>
       </div> */}
 
-      <span className={emailSent ? null : "hidden"}>
-        Thank you for your message, I will be in touch in no time!
-      </span>
+        <span className={emailSent ? null : "hidden"}>
+          Thank you for your message, I will be in touch in no time!
+        </span>
+      </div>
     </div>
   );
 };

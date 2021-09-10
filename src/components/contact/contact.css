@@ -2,6 +2,21 @@
   display: none;
 }
 
+.background_container {
+  width: 90%;
+  height: 80%;
+  background-color: black;
+  position: absolute;
+  top: 3rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0.5;
+  z-index: 9998;
+  border-radius: 10px;
+}
+
 .contact_form {
   width: 90%;
   height: 60%;
@@ -21,6 +36,7 @@
 
 .get_in_touch {
   margin-bottom: 2rem;
+  color: white;
 }
 
 .contact_form_input {
@@ -33,7 +49,8 @@
   height: 10rem;
   width: 80%;
   margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
 }
 
 .contact_form_button {
@@ -59,5 +76,9 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
+  }
+
+  .background_container {
+    width: 65%;
   }
 }

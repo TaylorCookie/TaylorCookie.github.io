@@ -21,12 +21,14 @@ function Project({
         <h3 className="project_title">{title}</h3>
         <p className="project_about">{about}</p>
         <div className="project_button_row">
-          <button className={liveDemoLink ? "project_button" : "hidden"}>
-            <ExternalLink href={liveDemoLink}>Live Demo</ExternalLink>
-          </button>
-          <button className="project_button">
-            <ExternalLink href={githubLink}>GitHub</ExternalLink>
-          </button>
+          <ExternalLink href={liveDemoLink}>
+            <button className={liveDemoLink ? "project_button" : "hidden"}>
+              Live Demo
+            </button>
+          </ExternalLink>
+          <ExternalLink href={githubLink}>
+            <button className="project_button">GitHub</button>
+          </ExternalLink>
         </div>
         <p className="project_uses">Uses: {uses}</p>
       </div>

@@ -5,6 +5,7 @@
 
 * {
   margin: 0;
+  font-family: "Titillium Web", sans-serif;
 }
 
 /* Set core body defaults */
@@ -19,6 +20,20 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+button {
+  transition-duration: 0.4s;
+  margin: 0.5rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: var(--lightblue);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(92, 128, 139);
+  color: white;
 }
 
 /* All main components use this for auto spacing for navbar */

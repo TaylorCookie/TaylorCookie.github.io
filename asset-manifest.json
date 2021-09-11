@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c2b7c60.chunk.css",
-    "main.js": "/static/js/main.ea990e9a.chunk.js",
-    "main.js.map": "/static/js/main.ea990e9a.chunk.js.map",
+    "main.css": "/static/css/main.b430d2e1.chunk.css",
+    "main.js": "/static/js/main.13d527ca.chunk.js",
+    "main.js.map": "/static/js/main.13d527ca.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.83d7a37a.js",
     "runtime-main.js.map": "/static/js/runtime-main.83d7a37a.js.map",
     "static/js/2.348dff16.chunk.js": "/static/js/2.348dff16.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.eb02d1d0.chunk.js": "/static/js/3.eb02d1d0.chunk.js",
     "static/js/3.eb02d1d0.chunk.js.map": "/static/js/3.eb02d1d0.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1c2b7c60.chunk.css.map": "/static/css/main.1c2b7c60.chunk.css.map",
+    "static/css/main.b430d2e1.chunk.css.map": "/static/css/main.b430d2e1.chunk.css.map",
     "static/js/2.348dff16.chunk.js.LICENSE.txt": "/static/js/2.348dff16.chunk.js.LICENSE.txt",
     "static/media/foggyBackground.53f00b55.jpg": "/static/media/foggyBackground.53f00b55.jpg",
     "static/media/hikingProject.b16f7b3e.png": "/static/media/hikingProject.b16f7b3e.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.83d7a37a.js",
     "static/js/2.348dff16.chunk.js",
-    "static/css/main.1c2b7c60.chunk.css",
-    "static/js/main.ea990e9a.chunk.js"
+    "static/css/main.b430d2e1.chunk.css",
+    "static/js/main.13d527ca.chunk.js"
   ]
 }

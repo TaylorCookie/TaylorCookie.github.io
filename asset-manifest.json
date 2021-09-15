@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b430d2e1.chunk.css",
-    "main.js": "/static/js/main.13d527ca.chunk.js",
-    "main.js.map": "/static/js/main.13d527ca.chunk.js.map",
+    "main.js": "/static/js/main.f53cd9f1.chunk.js",
+    "main.js.map": "/static/js/main.f53cd9f1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.83d7a37a.js",
     "runtime-main.js.map": "/static/js/runtime-main.83d7a37a.js.map",
     "static/js/2.348dff16.chunk.js": "/static/js/2.348dff16.chunk.js",
@@ -16,12 +16,13 @@
     "static/media/hikingProject.b16f7b3e.png": "/static/media/hikingProject.b16f7b3e.png",
     "static/media/mountainBackground.637d87fd.jpg": "/static/media/mountainBackground.637d87fd.jpg",
     "static/media/portfolioProject.701e1b9e.png": "/static/media/portfolioProject.701e1b9e.png",
+    "static/media/ticTacToeProject.c8a4f9b7.png": "/static/media/ticTacToeProject.c8a4f9b7.png",
     "static/media/treesBackground.ca3b0980.jpg": "/static/media/treesBackground.ca3b0980.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.83d7a37a.js",
     "static/js/2.348dff16.chunk.js",
     "static/css/main.b430d2e1.chunk.css",
-    "static/js/main.13d527ca.chunk.js"
+    "static/js/main.f53cd9f1.chunk.js"
   ]
 }

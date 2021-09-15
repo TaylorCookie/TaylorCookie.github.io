@@ -3,6 +3,7 @@ import Background from "../ui/background/Background";
 import background from "../../images/treesBackground.jpg";
 import hikingProject from "../../images/hikingProject.png";
 import porfolioProject from "../../images/portfolioProject.png";
+import ticTacToePWA from "../../images/ticTacToeProject.png";
 import Project from "../ui/project/Project";
 
 import "./projects.css";
@@ -25,6 +26,15 @@ export default class Projects extends Component {
       about: "Personal Website",
       uses: "React, HTML, CSS, JavaScript",
       githubLink: "https://github.com/TaylorCookie/TaylorCookie.github.io",
+    },
+    {
+      webImage: ticTacToePWA,
+      alt: "Screenshots of Tic-Tac-Toe PWA project",
+      title: "Tic-Tac-Toe PWA",
+      about: "Progressive Web Application",
+      uses: "Angular, HTML, CSS, JavaScript",
+      liveDemoLink: "https://tic-tac-toe-e6a78.web.app/",
+      githubLink: "https://github.com/TaylorCookie/Tic-Tac-Toe-PWA",
     },
   ];
 

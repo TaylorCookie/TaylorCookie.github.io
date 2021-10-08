@@ -3,7 +3,8 @@ import Background from "../ui/background/Background";
 import background from "../../images/treesBackground.jpg";
 import hikingProject from "../../images/hikingProject.png";
 import porfolioProject from "../../images/portfolioProject.png";
-import ticTacToePWA from "../../images/ticTacToeProject.png";
+import pocketChefProject from "../../images/pocketChefProject.png";
+import springBootApiProject from "../../images/springBootApiProject.png";
 import Project from "../ui/project/Project";
 
 import "./projects.css";
@@ -11,11 +12,30 @@ import "./projects.css";
 export default class Projects extends Component {
   projectsData = [
     {
+      webImage: pocketChefProject,
+      alt: "Screenshots of Pocket Chef project",
+      title: "Pocket-Chef PWA",
+      about:
+        'Create, view, edit, and delete your personal recipes. Implements "Spring Boot Recipe API" for persistent database.',
+      uses: "Angular, TypeScript, HTML, CSS, Firebase",
+      liveDemoLink: "https://recipe-pwa-4b12f.web.app/",
+      githubLink: "https://github.com/TaylorCookie/Recipe-PWA",
+    },
+    {
+      webImage: springBootApiProject,
+      alt: "Screenshots of Spring Boot Recipe API project",
+      title: "Spring Boot Recipe API",
+      about: 'API made to service "Pocket-Chef PWA" project. Hosted on Heroku',
+      uses: "Spring Boot, PostgreSQL, Java, Heroku",
+      // liveDemoLink: "https://recipe-pwa-4b12f.web.app/",
+      githubLink: "https://github.com/TaylorCookie/SpringBoot-Recipe-API",
+    },
+    {
       webImage: hikingProject,
       alt: "Screenshot of hiking project",
       title: "GeoHiking",
       about: "Map, enter, and track personal hikes",
-      uses: "HTML, CSS, JavaScript, Leaflet API",
+      uses: "HTML, CSS, JavaScript, Leaflet API, GitHub Pages",
       liveDemoLink: "https://taylorcookie.github.io/GeoHikingMap/",
       githubLink: "https://github.com/TaylorCookie/GeoHikingMap",
     },
@@ -24,17 +44,8 @@ export default class Projects extends Component {
       alt: "Screenshots of portfolio project",
       title: "Porfolio (this site)",
       about: "Personal Website",
-      uses: "React, HTML, CSS, JavaScript",
+      uses: "React, HTML, CSS, JavaScript, GitHub Pages",
       githubLink: "https://github.com/TaylorCookie/TaylorCookie.github.io",
-    },
-    {
-      webImage: ticTacToePWA,
-      alt: "Screenshots of Tic-Tac-Toe PWA project",
-      title: "Tic-Tac-Toe PWA",
-      about: "Progressive Web Application",
-      uses: "Angular, HTML, CSS, JavaScript",
-      liveDemoLink: "https://tic-tac-toe-e6a78.web.app/",
-      githubLink: "https://github.com/TaylorCookie/Tic-Tac-Toe-PWA",
     },
   ];
 
